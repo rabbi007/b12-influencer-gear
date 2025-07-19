@@ -1,0 +1,38 @@
+
+ <!-- font awesome icon link -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+magnifying-glass= <i class="fa-solid fa-magnifying-glass"></i>
+cart-shopping= <i class="fa-solid fa-cart-shopping"></i>
+arrow-right= <i class="fa-solid fa-arrow-right"></i>
+
+
+instagram= <i class="fa-brands fa-instagram"></i>
+globe= <i class="fa-solid fa-globe"></i>
+twitter= <i class="fa-brands fa-twitter"></i>
+youtube= <i class="fa-brands fa-youtube"></i>
+
+full star= <i class="fa-solid fa-star"></i>
+half-star= <i class="fa-solid fa-star-half-stroke"></i>
+
+
+Note: Add a space before icon using this = &nbsp;
+
+-------------------------------------------------------------------
+<p class="rating">
+  <i class="fa-solid fa-star"></i>
+  <i class="fa-solid fa-star"></i>
+  <i class="fa-solid fa-star"></i>
+  <i class="fa-solid fa-star"></i>
+  <i class="fa-solid fa-star-half-stroke"></i>
+</p>
+--------------------------------------------------
+<div class="rating" style="color:#ffc107;">
+  <i class="fa-solid fa-star"></i>
+  <i class="fa-solid fa-star"></i>
+  <i class="fa-solid fa-star"></i>
+  <i class="fa-solid fa-star"></i>
+  <i class="fa-solid fa-star-half-stroke"></i>
+</div>

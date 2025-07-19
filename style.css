@@ -1,0 +1,244 @@
+
+    /* CSS File */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins';
+  color: rgb(58, 58, 58);
+  background: rgb(255, 255, 255);
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1440px;
+  width: 90%;
+  margin: 0 auto;
+  
+}
+
+    /* HEADER */
+header {
+  padding: 20px 0;
+  
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+    /* HERO SECTION */
+.hero {
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+  color: rgb(58, 58, 58);
+}
+
+.btn {
+  background: rgb(224, 44, 109);
+  border-radius: 40px;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.hero-img img {
+  max-width: 400px;
+  width: 100%;
+}
+
+.hero-img {
+  background-image: url('./images/Circle\ design.svg'); /* replace with your image path */
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 475px;
+  height: 475px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto; 
+  position: relative;
+}
+
+
+    /* PARTNER LOGOS */
+.partners {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.partners-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.partners-logos img {
+  max-height: 40px;
+}
+
+    /* POPULAR COLLECTION */
+.popular {
+  max-width: 1050px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.popular h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.product-card h3 {
+  margin: 10px 0;
+}
+
+.price {
+  font-weight: bold;
+  color: #e91e63;
+}
+
+.see-more {
+  padding-top: 30px;
+  text-align: right;
+}
+
+    /* FEATURED SECTION */
+.featured {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.featured-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.featured-img img {
+  max-width: 400px;
+  width: 100%;
+}
+
+.featured-text {
+  flex: 1;
+}
+
+.featured-text h2 {
+  color: rgb(10, 8, 38);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 60px;
+    }
+
+.featured-btn {
+  background: rgb(224, 44, 109);
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+    /* FOOTER */
+footer {
+  background: #0f0f2d;
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.footer-container {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.socials {
+  margin-top: 10px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 5px;
+  font-size: 1.2rem;
+}
