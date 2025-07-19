@@ -175,6 +175,8 @@ header {
 .see-more {
   padding-top: 30px;
   text-align: right;
+  color: rgb(224, 44, 109);
+  font-weight: bold;
 }
 
     /* FEATURED SECTION */
